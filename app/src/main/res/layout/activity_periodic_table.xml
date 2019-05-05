@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.kimi.elementsss.widget.PeriodicTableView
+        android:id="@+id/ptview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/controls"
+        android:layout_alignParentTop="true"
+        app:title="@string/titlePeriodicTable" />
+
+    <include
+        android:id="@+id/controls"
+        layout="@layout/ptable_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <ZoomControls
+        android:id="@+id/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/controls"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <View
+        android:id="@+id/touchFrame"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:importantForAccessibility="no"
+        android:visibility="gone"
+        tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute" />
+</RelativeLayout>

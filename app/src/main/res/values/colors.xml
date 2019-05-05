@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#c6c6c6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="menu_background">#119c4b</color>
+    <color name="background">#ececec</color>
+
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
+
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+</resources>

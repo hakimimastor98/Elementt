@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/block"
+        android:layout_width="80dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="2dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/symbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="36sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textSize="36sp" />
+</merge>

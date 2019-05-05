@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/prefKeyDarkTheme"
+        android:title="@string/prefTitleDarkTheme" />
+    <ListPreference
+        android:defaultValue="K"
+        android:dialogTitle="@string/prefTitleTemp"
+        android:entries="@array/tempUnitNames"
+        android:entryValues="@array/tempUnits"
+        android:key="@string/prefKeyTemp"
+        android:summary="@string/prefSummaryTemp"
+        android:title="@string/prefTitleTemp" />
+    <ListPreference
+        android:defaultValue="category"
+        android:dialogTitle="@string/prefTitleColors"
+        android:entries="@array/elementColorNames"
+        android:entryValues="@array/elementColors"
+        android:key="@string/prefKeyColors"
+        android:summary="@string/prefSummaryColors"
+        android:title="@string/prefTitleColors" />
+    <ListPreference
+        android:defaultValue="w"
+        android:dialogTitle="@string/prefTitleSubtextValue"
+        android:entryValues="@array/subtextValues"
+        android:key="@string/prefKeySubtextValue"
+        android:summary="@string/prefSummarySubtextValue"
+        android:title="@string/prefTitleSubtextValue" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/prefKeyShowControls"
+        android:summary="@string/prefSummaryShowControls"
+        android:title="@string/prefTitleShowControls" />
+</PreferenceScreen>

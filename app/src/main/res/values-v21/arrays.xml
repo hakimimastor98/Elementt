@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--
+        The colors and corresponding names for the element categories
+    -->
+    <array name="ptCategoryColors" translatable="false">
+        <item>#FF2FF12F</item>
+        <item>#FF79B5FF</item>
+        <item>#FFFFAA00</item>
+        <item>#FFF3F300</item>
+        <item>#FF55CC88</item>
+        <item>#FF00DDBB</item>
+        <item>#FF99BBAA</item>
+        <item>#FFDD9999</item>
+        <item>#FFFFB79B</item>
+        <item>#FFDDAACC</item>
+    </array>
+    <string-array name="ptCategories">
+        <item>Non-metal</item>
+        <item>Noble gas</item>
+        <item>Alkali metal</item>
+        <item>Alkaline earth metal</item>
+        <item>Metalloid</item>
+        <item>Halogen</item>
+        <item>Metal</item>
+        <item>Transition metal</item>
+        <item>Lanthanide</item>
+        <item>Actinide</item>
+    </string-array>
+
+    <!--
+        The colors and corresponding names for the element blocks
+    -->
+    <array name="ptBlockColors" translatable="false">
+        <item>#FF6699FF</item>
+        <item>#FFFFCC00</item>
+        <item>#FFFF9999</item>
+        <item>#FF00CC33</item>
+    </array>
+    <string-array name="ptBlocks" translatable="false">
+        <item>s</item>
+        <item>p</item>
+        <item>d</item>
+        <item>f</item>
+    </string-array>
+
+    <!--
+        Options for the temperature units preference
+    -->
+    <string-array name="tempUnits" translatable="false">
+        <item>K</item>
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="tempUnitNames" translatable="false">
+        <item>Kelvin (K)</item>
+        <item>Celsius (℃)</item>
+        <item>Fahrenheit (℉)</item>
+    </string-array>
+
+    <!--
+        Options for the element colors preference
+    -->
+    <string-array name="elementColors" translatable="false">
+        <item>category</item>
+        <item>block</item>
+    </string-array>
+    <string-array name="elementColorNames">
+        <item>Category</item>
+        <item>Block</item>
+    </string-array>
+
+    <!--
+        Options for the block subtext value
+    -->
+    <string-array name="subtextValues" translatable="false">
+        <item>w</item>
+        <item>dens</item>
+        <item>melt</item>
+        <item>boil</item>
+        <item>heat</item>
+        <item>neg</item>
+        <item>ab</item>
+    </string-array>
+    <string-array name="subtextValueNames">
+        <item>Atomic weight</item>
+        <item>Density (g/cm³)</item>
+        <item>Melting point (K)</item>
+        <item>Boiling point (K)</item>
+        <item>Specific heat (J/g·K)</item>
+        <item>Electronegativity (Pauling)</item>
+        <item>Abundance (mg/kg)</item>
+    </string-array>
+
+    <!--
+        Options for the list sorting dialog
+    -->
+    <string-array name="sortFieldNames">
+        <item>Atomic number</item>
+        <item>Element name</item>
+    </string-array>
+</resources>
